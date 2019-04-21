@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="net.astatis.reddot.SettingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClearClick"
+            android:text="clear"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/holo_red_dark"
+            android:minWidth="10dp"
+            android:tag="reddot:setting.setting1"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:onClick="onSetting1Click"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:tag="setting.setting1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Setting1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/holo_red_dark"
+                android:minWidth="10dp"
+                android:tag="reddot:setting.setting1"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:onClick="onSetting2Click"
+            android:orientation="horizontal"
+
+            android:paddingLeft="10dp"
+            android:tag="setting.setting2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Setting2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/holo_red_dark"
+                android:minWidth="10dp"
+                android:tag="reddot:setting.setting2"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:onClick="onSetting3Click"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:tag="setting.setting3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Setting3"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@android:color/holo_red_dark"
+                android:minWidth="10dp"
+                android:tag="reddot:setting.setting3"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
